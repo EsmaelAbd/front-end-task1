@@ -1,0 +1,124 @@
+.snav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    margin: auto 0;
+    padding: 20px 115px;
+    font-family: "Poppins", sans-serif;
+    z-index: 10;
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.15);
+
+    
+}
+nav h1{
+    font-size: 28px;
+    color: #1e1e1e;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+nav button{
+    display: flex;
+    padding-right: 15px;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+    cursor: pointer;
+    border: transparent;
+    letter-spacing: .25px;
+    font-family: "Poppins", sans-serif;
+}
+.fa-calender{
+    background-color: #f35525;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-left: -1px;
+    cursor: pointer;
+}
+.items button p{
+    display: flex;
+    margin: auto 0;
+    transition: all 0.4s ease 0s ;
+}
+.items button p:hover{
+    color: #F35525;
+}
+nav .items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav .items ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    
+
+}
+
+nav .items ul li{    
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #1e1e1e;
+    transition: all 0.4s ease 0s;
+    border: transparent;
+    letter-spacing: .25px;
+
+}
+
+nav .items ul li:hover{
+    color: #F35525;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1024px) {
+    .snav {
+        padding: 20px;
+    }
+    nav .items ul {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .snav {
+        padding: 10px;
+        flex-direction: column;
+    }
+    nav .items {
+        display: block;
+    }
+    nav h1, .items button, .fa-calender {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    nav .items ul {
+        flex-direction: column;
+    }
+    nav .items ul li {
+        padding: 8px 0;
+    }
+}

@@ -1,0 +1,70 @@
+.video{
+    background-image: url(src/components/imgs/video-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0px 250px 0px;
+    position: relative;
+    z-index: 1;
+}
+.video .middleinfo{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    padding: 0 30%;
+}
+
+.video .middleinfo h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.video .middleinfo h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+    color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .video .middleinfo {
+        padding: 0 5%;
+    }
+}
+
+@media (max-width: 992px) {
+    .video {
+        padding: 80px 0;
+    }
+    .video .middleinfo h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video {
+        padding: 60px 0;
+    }
+
+    .video .middleinfo {
+        padding: 0 3%;
+    }
+}
+
+@media (max-width: 576px) {
+    .video {
+        padding: 40px 0;
+    }
+
+    .video .middleinfo h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .video .middleinfo {
+        padding: 0 1.5%;
+    }
+}

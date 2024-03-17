@@ -1,0 +1,122 @@
+.propcard {
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    max-width: 350px;
+    width: 100%;
+}
+.propcard .prptxt{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.propcard img{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.propcard span{
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.propcard .prptxt h4{
+    font-size: 20px;
+    color: #f35525;
+    margin-bottom: 0;
+}
+
+.propcard h4{
+    font-size: 18px;
+    margin: 25px 0px;
+    text-align: left;
+}
+
+.propcard h4 a{
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+.propcard ul{
+    list-style: none;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.propcard ul li{
+    display: inline-block;
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-right: 20px;
+}
+
+.propcard button{
+    display: inline-block;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 30px;
+    border-radius: 25px;
+    transition: all .3s;
+    border: none;
+    cursor: pointer;
+}
+
+.propcard button:hover{
+    background-color: #f35525;
+}
+
+@media (max-width: 768px) {
+    .propcard {
+        padding: 20px;
+    }
+
+    .propcard .prptxt h4, .propcard h4 {
+        font-size: 16px;
+    }
+
+    .propcard ul li {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .propcard button {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .propcard {
+        margin-bottom: 20px;
+    }
+
+    .propcard .prptxt {
+        flex-direction: column;
+    }
+
+    .propcard span, .propcard .prptxt h4, .propcard h4, .propcard ul li {
+        font-size: 13px;
+    }
+
+    .propcard button {
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}

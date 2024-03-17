@@ -1,0 +1,112 @@
+.secondsection{
+    margin-top: 170px;
+    margin-bottom: 125px;
+    padding: 0 140px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    flex-wrap: wrap;
+}
+
+
+.secondsection .chairs{
+    padding-left: 25px;
+    width: 30%;
+    height: auto;
+    max-height: 400px;
+}
+
+.lefticon{    
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    background-color: #f35525;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: 110px;
+    bottom: -800px;
+}
+
+
+.lefticon a img{
+    vertical-align: middle;
+    max-width: 60px;
+    width: 100%;
+}
+
+.msecondsection{
+    padding: 0 75px;
+    margin-right: 50px;
+    position: static;
+    left: 30%;
+    width: 34%;
+    flex-basis: auto;
+}
+
+
+.msecondsection h6{
+    color: #ee626b;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.msecondsection h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 56px;
+    margin-top: 20px;
+    color: #1e1e1e;
+}
+
+
+@media (min-width: 992px) {
+    .msecondsection {
+        position: static;
+        left: 30%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .secondsection {
+        padding: 0 50px;
+    }
+    
+    .msecondsection {
+        margin-right: 50px;
+        padding: 0 50px;
+    }
+
+    .msecondsection h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .secondsection {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0 20px;
+    }
+
+    .secondsection .chairs,
+    .msecondsection {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .msecondsection h6 {
+        font-size: 14px;
+    }
+    
+    .msecondsection h2 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-top: 15px;
+    }
+}

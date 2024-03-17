@@ -1,0 +1,56 @@
+.propersec{
+    margin-top: 120px;
+    font-family: "Poppins", sans-serif;
+}
+
+.propersec .prophead {
+    text-align: center;
+}
+
+.propersec .prophead h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.propersec .prophead h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+    padding: 0 35%;
+}
+
+@media (max-width: 768px) {
+    .propersec .prophead h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0 3%;
+    }
+}
+
+@media (max-width: 576px) {
+    .propersec {
+        margin-top: 60px;
+    }
+
+    .propersec .prophead h6 {
+        font-size: 14px;
+    }
+
+    .propersec .prophead h2 {
+        font-size: 24px;
+        line-height: 32px;
+        padding: 0 1%;
+    }
+}
+
+@media (max-width: 360px) {
+    .propersec .prophead h2 {
+        font-size: 22px;
+        line-height: 30px;
+        padding: 0;
+    }
+}

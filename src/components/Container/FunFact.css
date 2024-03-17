@@ -1,0 +1,36 @@
+.fun-fact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 125px;
+    padding: 0 10%;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 1200px) {
+    .fun-fact {
+        padding: 0 4%;
+    }
+}
+
+@media (max-width: 992px) {
+    .fun-fact {
+        padding: 0 3%;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fun-fact {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fun-fact {
+        padding: 0 2%;
+        margin-top: 20px;
+    }
+}

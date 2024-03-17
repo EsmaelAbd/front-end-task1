@@ -1,0 +1,77 @@
+.fcard{
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 270px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.fcard h1{
+    flex: 1 0 auto;
+    margin-right: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #f35525;
+    padding: 0 40px;
+    padding-right: 0;
+}
+
+.fcard p{
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+    padding-right: 30px;
+}
+.fcard:after {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f35525;
+    border-radius: 50%;
+    content: '';
+    right: -25px;
+    top: -25px;
+}
+
+@media (max-width: 992px) {
+    .fcard h1 {
+        font-size: 32px;
+    }
+    .fcard p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fcard h1 {
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fcard {
+        padding: 15px;
+    }
+    .fcard h1 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+    .fcard p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .fcard:after {
+        width: 40px;
+        height: 40px;
+        right: -20px;
+        top: -20px;
+    }
+}

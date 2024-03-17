@@ -1,0 +1,68 @@
+.sscard{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1e1e1e;
+    position: relative;
+    align-items: center;
+    width: 350px;
+    font-family: "Poppins", sans-serif;
+    background-color:  #fafafa;
+    border: 0px solid  #fafafa;
+}
+
+.sscard button{
+    font-size: 1rem;
+    padding: 16px 20px;
+    width: 100%;
+    text-align: left;
+    background-color: #fafafa;
+    border: none; 
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    border-bottom: 0.25px solid rgba(0, 0, 0, 0.1);
+}
+
+.sscard p{
+    font-size: 16px;
+    padding: 16px 20px;
+    color: #212529;
+}
+.sscard p a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #0D6EFD;
+}
+.sscard p code{
+   font-size: .875em;
+    color: #F63384;
+}
+
+
+@media (max-width: 768px) {
+    .sscard {
+        padding: 20px;
+    }
+
+    .sscard button, .sscard p {
+        padding: 12px 15px;
+    }
+
+    .sscard p, .sscard p a, .sscard p code {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sscard {
+        padding: 15px;
+    }
+    
+    .sscard button, .sscard p {
+        padding: 10px 12px;
+    }
+
+    .sscard p, .sscard p a, .sscard p code {
+        font-size: 14px;
+    }
+}

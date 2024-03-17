@@ -1,0 +1,25 @@
+.propcontainer{
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .propcontainer {
+        padding: 0 4%;
+    }
+}
+
+@media (max-width: 576px) {
+    .propcontainer {
+        padding: 0 2%;
+    }
+}
+
+@media (max-width: 360px) {
+    .propcontainer {
+        padding: 0 1%;
+    }
+}
