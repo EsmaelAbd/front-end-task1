@@ -1,6 +1,5 @@
 .contactsec{
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
     padding: 100px 0px 0px 0px;
     position: relative;
@@ -9,12 +8,16 @@
     align-items: center;
 }
 
+.contactsec img{
+    width: 100%;
+}
+
 .contactsec .csinfo{
     position: absolute;
     top: 30%;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    padding: 5% 25%;
+    padding: 5% 30%;
 }
 
 .contactsec .csinfo h6{
