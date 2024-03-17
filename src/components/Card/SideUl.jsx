@@ -1,11 +1,7 @@
 import React from "react";
 import "./SideUl.css";
-import liimg1 from "../imgs/SideUl/info-icon-01.png";
-import liimg2 from "../imgs/SideUl/info-icon-02.png";
-import liimg3 from "../imgs/SideUl/info-icon-03.png";
-import liimg4 from "../imgs/SideUl/info-icon-04.png";
 
-const SideUl = () => {
+const SideUl = ({ liimg1, liimg2, liimg3, liimg4 }) => {
   return (
     <div className="sideul">
       <ul>
