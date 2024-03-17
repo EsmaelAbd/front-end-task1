@@ -20,7 +20,7 @@ import chairs from "./components/imgs/Ss/featured.jpg";
 import micon from "./components/imgs/Ss/featured-icon.png";
 import vfram from "./components/imgs/video-frame.jpg";
 import vbg from "./components/imgs/video-bg.jpg";
-// src/components/imgs/video-bg.jpg)
+import csbg from "./components/imgs/ContactSec/contact-bg.jpg";
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
         <FunFact />
         <BestDeal img={bdeal} />
         <PropertiesSection />
-        <ContactSection />
+        <ContactSection img={csbg} />
         <ContactUs img={mapimg} picon={picon} eicon={eicon} />
         <Footer />
       </div>
