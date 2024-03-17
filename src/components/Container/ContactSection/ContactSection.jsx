@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactSection.css";
 
-const ContactSection = (img) => {
+const ContactSection = ({ img }) => {
   return (
     <div className="contactsec">
       <img src={img} alt="" />
