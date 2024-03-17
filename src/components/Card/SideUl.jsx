@@ -1,12 +1,16 @@
 import React from "react";
 import "./SideUl.css";
+import liimg1 from "../imgs/SideUl/info-icon-01.png";
+import liimg2 from "../imgs/SideUl/info-icon-02.png";
+import liimg3 from "../imgs/SideUl/info-icon-03.png";
+import liimg4 from "../imgs/SideUl/info-icon-04.png";
 
 const SideUl = () => {
   return (
     <div className="sideul">
       <ul>
         <li>
-          <img src="src/components/imgs/SideUl/info-icon-01.png" alt="" />
+          <img src={liimg1} alt="" />
           <h4>
             250 m2
             <br />
@@ -14,7 +18,7 @@ const SideUl = () => {
           </h4>
         </li>
         <li>
-          <img src="src/components/imgs/SideUl/info-icon-02.png" alt="" />
+          <img src={liimg2} alt="" />
           <h4>
             Contract
             <br />
@@ -22,7 +26,7 @@ const SideUl = () => {
           </h4>
         </li>
         <li>
-          <img src="src/components/imgs/SideUl/info-icon-03.png" alt="" />
+          <img src={liimg3} alt="" />
           <h4>
             Payment
             <br />
@@ -30,7 +34,7 @@ const SideUl = () => {
           </h4>
         </li>
         <li>
-          <img src="src/components/imgs/SideUl/info-icon-04.png" alt="" />
+          <img src={liimg4} alt="" />
           <h4>
             Safety
             <br />
