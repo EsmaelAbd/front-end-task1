@@ -2,10 +2,10 @@ import React from "react";
 import "./VideoContent.css";
 import { FaPlay } from "react-icons/fa";
 
-const VideoContent = () => {
+const VideoContent = ({ img }) => {
   return (
     <div className="videocontent">
-      <img src="src/components/imgs/video-frame.jpg" alt="" />
+      <img src={img} alt="" />
       <a href="#">
         <i>
           <FaPlay />

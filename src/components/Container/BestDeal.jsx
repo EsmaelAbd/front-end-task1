@@ -3,7 +3,7 @@ import "./BestDeal.css";
 import BdContainer from "../BestDealContainer/BdContainer";
 import { FaCalendar } from "react-icons/fa";
 
-const BestDeal = () => {
+const BestDeal = ({ img }) => {
   return (
     <div className="bestdeal">
       <div className="bdhead">
@@ -25,7 +25,7 @@ const BestDeal = () => {
       </div>
       <div className="bdealssec">
         <BdContainer />
-        <img src="src/components/imgs/Deal/deal-01.jpg" alt="" />
+        <img src={img} alt="" />
         <div className="bdealp">
           <h4>Extra Info About Property</h4>
           <p>
@@ -44,7 +44,6 @@ const BestDeal = () => {
             </i>
             <p>Schedule a visit</p>
           </button>
-          {/* <button>Schedule a visit</button> */}
         </div>
       </div>
     </div>

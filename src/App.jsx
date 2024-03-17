@@ -12,6 +12,15 @@ import Footer from "./components/Footer/Footer";
 import FirstNav from "./components/NavBar/FirstNav";
 import NavBar from "./components/NavBar/NavBar";
 import HomeBG from "./components/imgs/banners/banner-01.jpg";
+import mapimg from "./components/imgs/Map.png";
+import picon from "./components/imgs/ContactSec/phone-icon.png";
+import eicon from "./components/imgs/ContactSec/email-icon.png";
+import bdeal from "./components/imgs/Deal/deal-01.jpg";
+import chairs from "./components/imgs/Ss/featured.jpg";
+import micon from "./components/imgs/Ss/featured-icon.png";
+import vfram from "./components/imgs/video-frame.jpg";
+import vbg from "./components/imgs/video-bg.jpg";
+// src/components/imgs/video-bg.jpg)
 
 function App() {
   return (
@@ -23,14 +32,14 @@ function App() {
           navitems={["Home", "Properties", "Property Details", "Contact Us"]}
         />
         <Hero img={HomeBG} />
-        <SecondSection />
-        <VideoSection />
-        <VideoContent />
+        <SecondSection img={chairs} micon={micon} />
+        <VideoSection img={vbg} />
+        <VideoContent img={vfram} />
         <FunFact />
-        <BestDeal />
+        <BestDeal img={bdeal} />
         <PropertiesSection />
         <ContactSection />
-        <ContactUs />
+        <ContactUs img={mapimg} picon={picon} eicon={eicon} />
         <Footer />
       </div>
     </>

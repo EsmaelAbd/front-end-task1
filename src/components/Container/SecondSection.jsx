@@ -7,18 +7,14 @@ import liimg2 from "../imgs/SideUl/info-icon-02.png";
 import liimg3 from "../imgs/SideUl/info-icon-03.png";
 import liimg4 from "../imgs/SideUl/info-icon-04.png";
 
-const SecondSection = () => {
+const SecondSection = ({ img, micon }) => {
   return (
     <>
       <div className="secondsection">
-        <img
-          className="chairs"
-          src="src/components/imgs/Ss/featured.jpg"
-          alt="chairs"
-        />
+        <img className="chairs" src={img} alt="chairs" />
         <div className="lefticon">
           <a href="#">
-            <img src="src/components/imgs/Ss/featured-icon.png" alt="" />
+            <img src={micon} alt="" />
           </a>
         </div>
         <div className="msecondsection">

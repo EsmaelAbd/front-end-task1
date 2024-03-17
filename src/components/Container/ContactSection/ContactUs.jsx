@@ -1,29 +1,23 @@
 import React from "react";
 import "./ContactUs.css";
 
-const ContactUs = () => {
+const ContactUs = ({ img, picon, eicon }) => {
   return (
     <div className="contactus">
       <div className="map">
         <div className="mapimg">
-          <img src="src/components/imgs/Map.png" alt="map" />
+          <img src={img} />
         </div>
         <div className="contactinfo">
           <div className="call">
-            <img
-              src="src/components/imgs/ContactSec/phone-icon.png"
-              alt="phone"
-            />
+            <img src={picon} alt="phone" />
             <div className="callinfo">
               <h6>010-020-0340</h6>
               <span>Phone Number</span>
             </div>
           </div>
           <div className="email">
-            <img
-              src="src/components/imgs/ContactSec/email-icon.png"
-              alt="email"
-            />
+            <img src={eicon} alt="email" />
             <div className="emailinfo">
               <h6>info@villa.com</h6>
               <span>Business Email</span>
